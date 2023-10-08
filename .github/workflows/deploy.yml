@@ -34,7 +34,7 @@ jobs:
         if: ${{ steps.deployment.outputs.page_url != '' }}
         id: cache-purge
         run: |
-          curl --location 'https://api.cloudflare.com/client/v4/zones/${{ secrets.CLOUDFLARE_ZONE_ID }}/purge_cache?=null' \
+          curl --location 'https://api.cloudflare.com/client/v4/zones/${{ secrets.CLOUDFLARE_ZONE_ID }}/purge_cache' \
           --header 'X-Auth-Email: ${{ secrets.CLOUDFLARE_AUTH_EMAIL }}' \
           --header 'X-Auth-Key: ${{ secrets.CLOUDFLARE_AUTH_KEY }}' \
           --header 'Content-Type: application/json' \
