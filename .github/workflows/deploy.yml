@@ -29,3 +29,14 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+
+      - name: Purge Cloudflare Cache
+        id: cache-purge
+        run: |
+          curl --location 'https://api.cloudflare.com/client/v4/zones/${{ secrets.CLOUDFLARE_ZONE_ID }}/purge_cache?=null' \
+          --header 'X-Auth-Email: ${{ secrets.CLOUDFLARE_AUTH_EMAIL }}' \
+          --header 'X-Auth-Key: ${{ secrets.CLOUDFLARE_AUTH_KEY }}' \
+          --header 'Content-Type: application/json' \
+          --data '{
+              "purge_everything": true
+          }'
