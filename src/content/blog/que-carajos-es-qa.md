@@ -2,7 +2,7 @@
 title: '¿Qué carajos es QA?'
 description: 'Lorem ipsum dolor sit amet'
 pubDate: 'May 25 2022'
-heroImage: '/blog-placeholder-4.jpg'
+heroImage: '/thumbnails/cat-tester.jpg'
 ---
 
 Cuando pensamos en el equipo de QA normalmente pensamos solamente en esas personas que se encargan de hacer testing y romper cosas para que quien desarrolle termine con canas verdes... en parte tienen razón, pero hay más cosas por hacer.

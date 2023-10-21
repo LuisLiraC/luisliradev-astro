@@ -2,7 +2,7 @@
 title: 'Crea alias de comando en Windows Terminal'
 description: 'Lorem ipsum dolor sit amet'
 pubDate: 'Jan 07 2022'
-heroImage: '/blog-placeholder-3.jpg'
+heroImage: '/thumbnails/cat-code.jpg'
 ---
 
 Si usas la terminal y te gusta tener alias para tus comandos, pero si usas Windows Terminal o PowerShell habrás notado que cada vez que reinicias la terminal, los alias que creaste desaparecen. **Yo te enseñaré cómo hacerlos permanentes.**

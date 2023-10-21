@@ -2,7 +2,7 @@
 title: 'Por qué hacer Over Engineering'
 description: 'Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.'
 pubDate: 'Dec 12 2021'
-heroImage: '/blog-placeholder-1.jpg'
+heroImage: '/thumbnails/cat.jpg'
 ---
 
 **_Over Engineering_** es cuando nos gusta complicarnos la vida, algo como ser masoquistas, pero programando. Cuando estamos creando un proyecto y queremos sufrir por voluntad propia porque para un problema sencillo usamos una solución compleja. De hecho, este sitio es una muestra de eso.
