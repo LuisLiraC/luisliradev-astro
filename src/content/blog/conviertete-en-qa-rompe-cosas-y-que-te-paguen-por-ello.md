@@ -1,6 +1,6 @@
 ---
 title: 'Conviérte en QA: rompe cosas y que te paguen por ello'
-description: 'Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.'
+description: '¿Te gusta romper cosas y encontrar errores de software? ¿Siempre que estás en una aplicación piensas "¿qué pasa si hago esto?" y esperas que algo falle?'
 pubDate: 'Dec 26 2021'
 heroImage: '/thumbnails/cat-qa.jpg'
 ---

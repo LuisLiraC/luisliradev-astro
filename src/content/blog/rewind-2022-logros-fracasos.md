@@ -1,6 +1,6 @@
 ---
 title: 'Rewind 2022: logros y fracasos'
-description: 'Lorem ipsum dolor sit amet'
+description: 'Se acaba el año y entre tanto rewind en las aplicaciones que uso me dieron ganas de hacer mi rewind personal, pero no quiero hablar solo de mis logros, también quiero hablar sobre las cosas en las que fracasé.'
 pubDate: 'Dec 15 2022'
 heroImage: '/thumbnails/cat-2022.jpg'
 ---
@@ -44,5 +44,3 @@ Al final debemos encontrar un balance. Ni aplaudirnos a nosotros mismos todo el 
 Tal vez este año fue el mejor de tu vida o tal vez fue el peor, pero tómate un tiempo para reconocer todo lo que te salió bien y todo lo que no. Encuentra ese equilibrio, valórate, reconoce y presume tus logros y esfuerzo. Identifica las áreas en las que fallaste para que seas consciente de ellas y comiences a mejorar.
 
 Espero que este blogpost te haya ayudado aunque sea un poquito. Te deseo un muy buen fin de año y un excelente inicio de 2023. ¡Gracias por leerme!
-
-![Imagen](https://luisliradev.azureedge.net/blog/2022/12/1574_teoria-yin-yang-social.jpg)

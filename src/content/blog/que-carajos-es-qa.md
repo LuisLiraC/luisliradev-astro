@@ -1,13 +1,13 @@
 ---
 title: '¿Qué carajos es QA?'
-description: 'Lorem ipsum dolor sit amet'
+description: 'Cuando pensamos en el equipo de QA normalmente pensamos solamente en esas personas que se encargan de hacer testing y romper cosas para que quien desarrolle termine con canas verdes... en parte tienen razón, pero hay más cosas por hacer.'
 pubDate: 'May 25 2022'
 heroImage: '/thumbnails/cat-tester.jpg'
 ---
 
 Cuando pensamos en el equipo de QA normalmente pensamos solamente en esas personas que se encargan de hacer testing y romper cosas para que quien desarrolle termine con canas verdes... en parte tienen razón, pero hay más cosas por hacer.
 
-Recientemente cumplí un año trabajando como QA. En este año he aprendido cosas que quisiera compartir con ustedes y también algunas reflexiones que he tenido en el camino.
+Recientemente, cumplí un año trabajando como QA. En este año he aprendido cosas que quisiera compartir con ustedes y también algunas reflexiones que he tenido en el camino.
 
 Primero debemos entender qué significa Calidad en el Software. ¿Un software con calidad es aquel que está libre de bugs y de cualquier fallo? ¿Es el producto perfecto? No, por lo menos para mí no lo es.
 
@@ -26,5 +26,3 @@ Si te llama la atención conocer el trabajo de QA o quieres ser QA, una cosa que
 Por último, una cosa indispensable, conoce y usa el producto cuando esté en producción. Lo que te ayudará a determinar si el producto que estás probando cumple su objetivo es tener una visión global del ecosistema donde estará viviendo, eso solo lo lograrás siendo usuario de tu propio producto.
 
 **En conclusión:** conoce la visión del producto, conoce a quiénes lo usarán, conoce lo que se espera del producto como usuario y como empresa, y úsalo como cualquier otro usuario más; eso poco a poco te ayudará a aumentar la calidad.
-
-![Imagen](https://luisliradev.azureedge.net/blog/2022/5/26439_istockphoto-497653044-612x612.jpeg)
