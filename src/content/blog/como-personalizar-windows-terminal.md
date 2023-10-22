@@ -2,7 +2,7 @@
 title: 'Cómo personalizar Windows Terminal'
 description: 'Si usas Windows Terminal o PowerShell y quieres darle una apariencia más fancy aquí te enseño cómo hacerlo.'
 pubDate: 'Jan 04 2022'
-heroImage: '/thumbnails/cat-rgb.jpg'
+heroImage: '/thumbnails/cat-rgb.webp'
 ---
 Si usas Windows Terminal o PowerShell y quieres darle una apariencia más fancy aquí te enseño cómo hacerlo.
 
