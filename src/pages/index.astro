@@ -49,7 +49,7 @@ const posts = (await getCollection('blog')).sort(
 				Software Engineer ⚛️ 🐍 🦀
 			</p>
 				<section>
-					<h2 class="last-blogs">Últimos blogs</h2>
+					<h2 class="last-blogs">Últimos blogposts</h2>
 					{
 						posts.map((post) =>
 							<a href={`/blog/${post.slug}`} class="post">
