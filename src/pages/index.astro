@@ -3,17 +3,43 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog')).sort(
+	(a, b) =>  b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+).slice(0, 3);
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+			.last-blogs {
+				font-size: 2rem;
+				font-weight: bold;
+				color: rgb(var(--black));
+			}
+
+			.post a {
+				font-size: 1.5rem;
+				font-weight: bold;
+				color: rgb(var(--black));
+			}
+
+			.post-description {
+				font-size: 1rem;
+				color: rgb(var(--gray));
+			}
+		</style>
 	</head>
 	<body>
 		<Header title={SITE_TITLE} />
 		<main>
-			<h1>WIP 🚧</h1>
+			<h1>Luis Lira</h1>
+			<p>
+				Software Engineer ⚛️ 🐍 🦀
+			</p>
 			<!-- <h1>🧑‍🚀 Hello, Astronaut!</h1>
 			<p>
 				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
@@ -45,7 +71,20 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 					>astro-blog-template
 				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
 			</p> -->
-		</main>
+				<section>
+					<h2 class="last-blogs">Últimos blogs</h2>
+					{
+						posts.map((post) =>
+							<article class="post">
+								<p>
+									<a href={`/blog/${post.slug}`}>{post.data.title}</a>
+								</p>
+								<p class="post-description">{post.data.description}</p>
+							</article>
+						)
+					}
+				</section>
+			</main>
 		<Footer />
 	</body>
 </html>
