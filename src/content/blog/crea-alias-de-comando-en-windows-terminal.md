@@ -23,11 +23,11 @@ En este bloc de notas, ingresa el siguiente contenido:
 
 Ahora guarda los cambios, reinicia tu terminal, escribe `hello`, y verás la frase "Hello World" como salida.
 
-![Terminal](/blog-images/terminal-screenshot-4.png)
+![Terminal](/blog-images/terminal-screenshot-4.webp)
 
 En caso de que al abrir la terminal tengas este error:
 
-![Terminal](/blog-images/terminal-screenshot-5.jpeg)
+![Terminal](/blog-images/terminal-screenshot-5.webp)
 
 Es porque tu perfil de la terminal no tiene permisos para ejecutar scripts dentro de PowerShell, pero esto es muy fácil de arreglar.
 
@@ -40,7 +40,7 @@ Abre tu PowerShell como Administrador y revisa las políticas de ejecución con 
 
 Te pedirá que confirmes la acción, le dices que sí, y estará listo para que reinicies tu terminal e intentes de nuevo ejecutar `hello`.
 
-![Terminal](/blog-images/terminal-screenshot-6.jpeg)
+![Terminal](/blog-images/terminal-screenshot-6.webp)
 
 Ahora tienes tu primer alias y siempre se cargará cada vez que inicies tu terminal.
 
@@ -81,7 +81,7 @@ Recomendaciones
 
 En algunos casos, al iniciar la terminal, puede que te diga que un alias ya existe en un mensaje de error. Esto se debe a que Windows por defecto ya tiene una lista de alias. Si quieres verificar cuáles ya están ocupados, usa el comando `Get-Alias`.
 
-![Terminal](/blog-images/terminal-screenshot-7.png)
+![Terminal](/blog-images/terminal-screenshot-7.webp)
 
 Ahora ya sabes cómo crear alias para tus comandos y seguir usando Windows Terminal y PowerShell sin necesidad de escribir comandos largos todo el tiempo.
 

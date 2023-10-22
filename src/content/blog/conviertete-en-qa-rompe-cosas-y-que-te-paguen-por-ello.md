@@ -8,7 +8,7 @@ heroImage: '/thumbnails/cat-qa.webp'
 
 Entonces, el rol de **Quality Assurance (QA)** te gustará.
 
-![Break it](/blog-images/yeah-break-it.jpeg)
+![Break it](/blog-images/yeah-break-it.webp)
 
 Actualmente, tengo cerca de 9 meses trabajando como QA y 1 año estudiando sobre el rol y sus funciones. Entonces, ya tengo, por lo menos, una noción básica de cómo podrías llegar a serlo tú también o si solo quieres conocer cómo es nuestro trabajo.
 
@@ -24,7 +24,7 @@ Empecemos con los fundamentos. Hay conceptos básicos que debes conocer, como qu
 
 Con eso ya tienes una base sólida para el arranque. Ahora aprende lo que sería. Investiga cómo crear un Plan de pruebas, cómo reportar bugs, además de saber diferenciar los tipos de bugs. Esto último es importante ya que a los desarrolladores deberás indicarles lo más claro posible cómo es que un bug sucede y en qué condiciones para que puedan reproducirlo y solucionarlo.
 
-![Test chasing developer](/blog-images/tester-chasing-developer.jpeg)
+![Test chasing developer](/blog-images/tester-chasing-developer.webp)
 
 Wait, wait, wait... ¿cómo que un Plan de pruebas? ¿De dónde sale o qué es? Te lo dije, encontrar bugs y romper cosas no es nuestro único trabajo, solo es la parte más divertida. El proceso de QA no empieza luego de la programación. Comienza desde la planeación de esa feature o software. O sea, tienes que estar en comunicación constante con tu PM/PO para definir qué es la calidad de ese producto y qué esperan los stakeholders.
 
