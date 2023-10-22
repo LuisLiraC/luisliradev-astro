@@ -21,7 +21,7 @@ Recomiendo esto cuando estás creando un proyecto personal que está enfocado en
 
 ### ¿Cuáles eran mis opciones?
 
-![Screenshot](https://luisliradev.azureedge.net/blog/2021/12/13121_Screenshot_1.png)
+![Que hubieran hecho ustedes](/blog-images/que-hubieran-hecho-ustedes.png)
 
 La solución fácil pudo haber sido pagar Ghost Pro, escoger un tema y tal vez personalizarlo; con eso ya tendría todo listo para crear mi blog.
 
@@ -37,7 +37,7 @@ Me quedé sin acceso al primer droplet que hice porque rápidamente en el firewa
 
 Creí que ya todo estaba resuelto, pero me di cuenta de que me faltaba una parte muy importante: el alojamiento de imágenes. Estaba fallando porque Ghost las guardaba con una ruta absoluta y esta apuntaba a localhost. Una solución que se me ocurrió fue alojarlas con Imgur y solo poner el enlace público para usarlas, pero no, aquí venimos a hacer _over engineering_.
 
-![Image](https://luisliradev.azureedge.net/blog/2021/12/13119_ab67616d0000b273950359444321d635b59838b3.jpg)
+![Here we go again](/blog-images/here-we-go-again.jpeg)
 
 Decidí agregar a Ghost un sistema de almacenamiento personalizado. Consulté la documentación y vi la forma de conectarlo a un Bucket de S3 en AWS y lo logré, después de pelear 2 horas con un JSON porque no me di cuenta de que estaba poniendo una coma de más en la configuración. Aunque luego decidí migrar este almacenamiento a Azure Blob Storage. ¡Y listo! Ahora todo está funcionando perfectamente, pero aún faltan muchas cosas por hacer. Quiero aprender a usar los Webhooks de Ghost, implementar SEO y herramientas como Google Analytics, descubrir la forma de hacer automáticos los deploys cada vez que subo mis cambios al repositorio de GitHub y más cosas que se me puedan ocurrir.
 

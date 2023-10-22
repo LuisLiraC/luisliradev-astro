@@ -8,7 +8,7 @@ Si usas Windows Terminal o PowerShell y quieres darle una apariencia más fancy 
 
 Yo solo quería mostrar la rama de git y terminé haciendo esto.
 
-![5223_814c4addc3b8e9733ee5f2166d9a362b](https://luisliradev.azureedge.net/blog/2022/1/5223_814c4addc3b8e9733ee5f2166d9a362b.jpg)
+![Parkour](/blog-images/parkour.jpeg)
 
 Primero debes saber que es algo que encuentras en la documentación oficial de Microsoft, [Tutorial: Set up a custom prompt for PowerShell or WSL with Oh My Posh](https://docs.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup), pero yo te traigo el resumen luego de unas horas peleando porque no funcionaba.
 
@@ -36,7 +36,7 @@ Luego tendrás que descargar e instalar la fuente que usarás. Para esto necesit
 
 Reinicias tu terminal y ya debería quedar listo.
 
-![5238_Screenshot_4](https://luisliradev.azureedge.net/blog/2022/1/5238_Screenshot_4.png)
+![Terminal](/blog-images/terminal-screenshot-1.png)
 
 Ese sería el mundo ideal... pero para mí no fue así.
 
@@ -44,37 +44,37 @@ En caso de que reinicies tu terminal y en vez de iconos y letras ves algunos sí
 
 Para arreglar esto debes ir a modificar la configuración de Windows Terminal. Presionas la combinación de `Windows + R` e ingresas a `%LOCALAPPDATA%`. Una vez ahí, debes buscar la carpeta `Packages`, dentro de ella buscarás la carpeta `Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe`, entras y luego entras a `LocalState`. Ahí encontrarás el archivo `settings.json`, lo abres con tu editor de texto de preferencia, buscas la _key_ `profiles` y en su propiedad `defaults` especificarás la fuente de esta forma `"fontFace": "CaskaydiaCove NF"`.
 
-![5243_Screenshot_5](https://luisliradev.azureedge.net/blog/2022/1/5243_Screenshot_5.png)
+![Code](/blog-images/code-screenshot-1.png)
 
 Guardas el archivo, reinicias tu terminal para que amarre, y listo. Ahora deberías poder verlo :)
 
 Si luego quieres cambiar de tema, solo debes abrir la terminal y ejecutar de nuevo `notepad $PROFILE` para cambiar la configuración.
 
-**[Démame en Twitter cómo quedó](https://twitter.com/Luis_LiraC/status/1478536020589264899)**
+**[Déjame en Twitter cómo quedó](https://twitter.com/Luis_LiraC/status/1478536020589264899)**
 
 Extras
 ------
 
 Podrás editar los temas, crear tu propio tema o verlos a detalle yendo a la siguiente ruta de tu SO: `C:\Users\<Tu Usuario>\Documents\WindowsPowerShell\Modules\oh-my-posh\themes`. Así es como quedó luego de editar el tema _clean-detailed_.
 
-![51929_Screenshot_5](https://luisliradev.azureedge.net/blog/2022/1/51929_Screenshot_5.png)
+![Terminal](/blog-images/terminal-screenshot-2.png)
 
 Si usas **PowerShell**, también los cambios se reflejarán cuando la ejecutes. Puede que no veas la fuente aplicada, por lo que solo tendrás que dar clic derecho en la parte superior de la ventana, ir a Propiedades > Fuente y escoger de nuevo la fuente que instalaste.
 
-![51516_Screenshot_11](https://luisliradev.azureedge.net/blog/2022/1/51516_Screenshot_11.png)
+![Window](/blog-images/window-screenshot-1.png)
 
 Si usas **Visual Studio Code** y no se ve bien la fuente cuando usas la terminal integrada, tienes que cambiar la configuración del editor yendo a Archivo > Preferencias > Configuración, buscas "Terminal" y en la opción de _Terminal > Integrated: Font Family_ la cambias por la fuente que instalaste.
 
-![51514_Screenshot_10](https://luisliradev.azureedge.net/blog/2022/1/51514_Screenshot_10.png)
+![Code](/blog-images/code-screenshot-2.png)
 
 Si quieres ponerle un **background** a tu terminal, es muy fácil, solo debes abrir de nuevo el archivo de configuración de Windows Terminal, el settings.json donde pusiste la fuente y agregar la configuración en el mismo lugar.
 
 Yo estoy agregando de fondo una imagen de Mr. Robot que tengo guardada en mi carpeta de imágenes, con una opacidad del 50% y que rellene la terminal en cualquier tamaño.
 
-![6231_Screenshot_9](https://luisliradev.azureedge.net/blog/2022/1/6231_Screenshot_9.png)
+![Code](/blog-images/code-screenshot-3.png)
 
 El resultado es este:  
-![6233_Screenshot_10](https://luisliradev.azureedge.net/blog/2022/1/6233_Screenshot_10.png)
+![Terminal](/blog-images/terminal-screenshot-3.png)
 
 Si quieres **desinstalar** los cambios que hicimos porque decidiste que esta customización no es para ti, solo debes hacer lo siguiente para limpiar todo.
 
