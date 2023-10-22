@@ -30,7 +30,7 @@ Luego de que todo ya terminó de instalarse, ejecuta lo siguiente `notepad $PROF
 `Import-Module -Name Terminal-Icons`  
 `Set-PoshPrompt -Theme <Nombre del tema>`
 
-El `<Nombre del tema>` lo sustituirás por el tema que a ti más te guste. Yo estoy usando _Agnoster_, pero tú puedes consultar todos los que hay disponibles [aquí](https://ohmyposh.dev/docs/themes).
+El `<Nombre del tema>` lo sustituirás por el tema que a ti más te guste. Yo estoy usando _Agnoster_, pero tú puedes consultar todos los que hay disponibles [aquí en la documentación oficial de Oh My Posh](https://ohmyposh.dev/docs/themes).
 
 Luego tendrás que descargar e instalar la fuente que usarás. Para esto necesitas una desde la página [Nerd Fonts](https://www.nerdfonts.com/font-downloads), yo descargué la que se llama _Caskaydia Cove Nerd Font_, esto es necesario porque también la fuente contendrá iconos que se usarán en los temas que escojas.
 
