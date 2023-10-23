@@ -10,9 +10,9 @@ La página usada para estas pruebas es [OWASP Juice Shop](https://owasp.org/www-
 
 ## Autenticación y autorización
 
-[A01:2021-Broken Access Control](https://owasp.org/Top10/A01_2021-Broken_Access_Control/) se refiere a cuando un usuario puede acceder a recursos que no debería poder acceder. Como permitir que un usuario no autenticado pueda acceder a una página que solo debería ser accesible por usuarios autenticados o cualquier usuario pueda acceder a la información de otro usuario.
+[A01:2021-Broken Access Control](https://owasp.org/Top10/A01_2021-Broken_Access_Control/) se refiere a cuando un usuario puede ingresar a recursos que no debería. Como permitir que un usuario no autenticado pueda ver una página que solo debería ser accesible por usuarios autenticados o cualquier usuario pueda consultar a la información de otro usuario.
 
-En este ejemplo veremos como con el usuario `bender@juice-sh.op` podemos acceder a la información del usuario admin. Esto es provocado porque nuestro sistema no está validando correctamente que la información solicitada pertenece al usuario que está haciendo la petición. 
+En este ejemplo veremos como con el usuario `bender@juice-sh.op` podemos obtener información del usuario admin. Esto es provocado porque nuestro sistema no está validando correctamente que la información solicitada pertenece al usuario que está haciendo la petición. 
 
 Para hacer esto primero tendríamos que tener sesión iniciada con el usuario Bender. Al ir al carrito, y viendo la pestaña de Network en las herramientas de desarrollador, podemos ver que la petición que se hace para obtener la información del carrito y los headers que se envían en la petición. Aquí podemos ver que nuestro JWT se envía en el header `Authorization`.
 
