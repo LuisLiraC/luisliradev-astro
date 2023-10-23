@@ -4,7 +4,7 @@ description: '¿Alguna vez has tenido curiosidad sobre las pruebas de seguridad,
 pubDate: 'Oct 23 2023'
 heroImage: '/thumbnails/cat-security.webp'
 ---
-¿Alguna vez has tenido curiosidad sobre las pruebas de seguridad, pero no sabes por dónde empezar? En este artículo te traigo una guía para que puedas empezar a hacer pruebas de seguridad en tus aplicaciones web, basándonos en algunas de las vulnerabilidades más comunes mostradas en el [Top 10 de OWASP](https://owasp.org/www-project-top-ten/), una organización sin fines de lucro que se dedica a mejorar la seguridad de las aplicaciones web.
+¿Alguna vez has tenido curiosidad sobre las pruebas de seguridad, pero no sabes por dónde empezar? En este artículo te traigo una guía para que puedas empezar a hacer pruebas de seguridad en tus aplicaciones web, basándonos en algunas de las vulnerabilidades más comunes mostradas en el [Top 10 de OWASP](https://owasp.org/www-project-top-ten/), una organización sin fines de lucro que se dedica a mejorar la ciberseguridad.
 
 La página usada para estas pruebas es [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/), una aplicación web vulnerable que nos permite practicar y aprender sobre seguridad en aplicaciones web.
 
@@ -14,10 +14,10 @@ La página usada para estas pruebas es [OWASP Juice Shop](https://owasp.org/www-
 
 En este ejemplo veremos como con el usuario `bender@juice-sh.op` podemos acceder a la información del usuario admin. Esto es provocado porque nuestro sistema no está validando correctamente que la información solicitada pertenece al usuario que está haciendo la petición. 
 
-Para hacer esto primero tendríamos que tener sesión iniciada con el usuario.
+Para hacer esto primero tendríamos que tener sesión iniciada con el usuario Bender. Al ir al carrito, y viendo la pestaña de Network en las herramientas de desarrollador, podemos ver que la petición que se hace para obtener la información del carrito y los headers que se envían en la petición. Aquí podemos ver que nuestro JWT se envía en el header `Authorization`.
+
 ![Broken Access Control](/blog-images/authorization-screenshot-1.webp)
 
-Al ir al carrito y viendo la pestaña de Network en las herramientas de desarrollador, podemos ver que la petición que se hace para obtener la información del carrito y los headers que se envían en la petición. Aquí podemos ver que nuestro JWT se envía en el header `Authorization`.
 ![Broken Access Control](/blog-images/authorization-screenshot-2.webp)
 
 Si vamos directamente a la URL que estamos viendo no funciona debido a que falta el header de `Authorization`.
