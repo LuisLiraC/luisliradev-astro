@@ -63,7 +63,7 @@ La consulta en la base de datos está escrita de la siguiente manera:
 `SELECT * FROM Users WHERE email = '${req.body.email || ''}' AND password = '${security.hash(req.body.password || '')}' AND deletedAt IS NULL`
 ```
 
-Sustituir los datos que nos llegan en la petición, en la query que se hará a la base de datos y quedará de la siguiente forma
+Sustituimos los datos que nos llegan en la petición en la query que se hará a la base de datos y quedará de la siguiente forma
 ```sql
 SELECT * FROM Users WHERE email = 'user' AND password = 'hashed-password' AND deletedAt IS NULL
 ```
