@@ -58,17 +58,17 @@ En este ejemplo lo que hacemos es escribir `' OR 1=1; --` en el campo de email y
 
 **¿Cómo funciona?**
 
-La consulta en la base de datos está escrita de la siguiente manera:
+La creación dela query que se hace a la base de datos está escrita así en el código de la aplicación:
 ```typescript
 `SELECT * FROM Users WHERE email = '${req.body.email || ''}' AND password = '${security.hash(req.body.password || '')}' AND deletedAt IS NULL`
 ```
 
-Sustituimos los datos que nos llegan en la petición en la query que se hará a la base de datos y quedará de la siguiente forma
+Sustituimos los datos que nos llegan en la petición y quedará de la siguiente forma:
 ```sql
 SELECT * FROM Users WHERE email = 'user' AND password = 'hashed-password' AND deletedAt IS NULL
 ```
 
-Esta misma implementación es la que permite que se pueda hacer SQL Injection, Al no hacer una query parametrizada, si nosotros enviamos `' OR 1=1; --` se inyecta en la query que va hacia la base de datos y la consulta queda así:
+Esta misma implementación es la que permite que se pueda hacer SQL Injection, al no hacer una query parametrizada, si nosotros enviamos `' OR 1=1; --` se inyecta en la query y la consulta queda así:
 ```javascript
 `SELECT * FROM Users WHERE email = '' OR 1=1; -- ${req.body.email || ''}' AND password = '${security.hash(req.body.password || '')}' AND deletedAt IS NULL`
 ```
