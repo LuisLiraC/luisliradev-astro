@@ -1,5 +1,5 @@
 ---
-title: 'Conviérte en QA: rompe cosas y que te paguen por ello'
+title: 'Conviértete en QA: rompe cosas y que te paguen por ello'
 description: '¿Te gusta romper cosas y encontrar errores de software? ¿Siempre que estás en una aplicación piensas "¿qué pasa si hago esto?" y esperas que algo falle?'
 pubDate: 'Dec 26 2021'
 heroImage: '/thumbnails/cat-qa.webp'
