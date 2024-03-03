@@ -52,7 +52,7 @@ const posts = (await getCollection('blog')).sort(
 					<h2 class="last-blogs">Últimos blogposts</h2>
 					{
 						posts.map((post) =>
-							<a href={`/blog/${post.slug}`} class="post">
+							<a href={`/blog/${post.slug}/`} class="post">
 								<p class="post-title">{post.data.title}</p>
 								<p class="post-description">{post.data.description}</p>
 							</a>
