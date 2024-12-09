@@ -10,9 +10,38 @@ type Props = CollectionEntry<'blog'>['data'];
 const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 ---
 
-<html lang="en">
+<html lang="es">
 	<head>
 		<BaseHead title={title} description={description} image={heroImage} />
+		<script type="application/ld+json" set:html={JSON.stringify({
+				"@context": "https://schema.org",
+				"@type": "Article",
+				"headline": title,
+				"description": description,
+				"image": heroImage ? new URL(heroImage, Astro.site).toString() : undefined,
+				"author": {
+					"@type": "Person",
+					"name": "Luis Lira",
+					"url": new URL("/", Astro.site).toString(),
+					"jobTitle": "Platform Engineer / SDET",
+					"sameAs": [
+						"https://x.com/Luis_LiraC",
+						"https://github.com/LuisLiraC",
+						"https://www.linkedin.com/in/luislirac/",
+						"https://bsky.app/profile/luislira.dev"
+					]
+				},
+				"publisher": {
+					"@type": "Person",
+					"name": "Luis Lira",
+					"logo": {
+						"@type": "ImageObject",
+						"url": new URL("favicon.ico", Astro.site).toString()
+					}
+				},
+				"datePublished": pubDate
+			})}>
+		</script>
 		<style>
 			main {
 				width: calc(100% - 2em);
