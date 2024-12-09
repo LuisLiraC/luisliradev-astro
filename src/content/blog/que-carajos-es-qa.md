@@ -1,6 +1,6 @@
 ---
 title: '¿Qué carajos es QA?'
-description: 'Cuando pensamos en el equipo de QA normalmente pensamos solamente en esas personas que se encargan de hacer testing y romper cosas para que quien desarrolle termine con canas verdes... en parte tienen razón, pero hay más cosas por hacer.'
+description: 'Descubre qué hace realmente un QA más allá de las pruebas: calidad de software, visión de producto y mejores prácticas en el desarrollo.'
 pubDate: 'May 25 2022'
 heroImage: '/thumbnails/cat-tester.webp'
 ---
@@ -26,3 +26,4 @@ Si te llama la atención conocer el trabajo de QA o quieres ser QA, una cosa que
 Por último, una cosa indispensable, conoce y usa el producto cuando esté en producción. Lo que te ayudará a determinar si el producto que estás probando cumple su objetivo es tener una visión global del ecosistema donde estará viviendo, eso solo lo lograrás siendo usuario de tu propio producto.
 
 **En conclusión:** conoce la visión del producto, conoce a quiénes lo usarán, conoce lo que se espera del producto como usuario y como empresa, y úsalo como cualquier otro usuario más; eso poco a poco te ayudará a aumentar la calidad.
+

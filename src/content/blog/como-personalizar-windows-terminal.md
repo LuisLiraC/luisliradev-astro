@@ -1,6 +1,6 @@
 ---
 title: 'Cómo personalizar Windows Terminal'
-description: 'Si usas Windows Terminal o PowerShell y quieres darle una apariencia más fancy aquí te enseño cómo hacerlo.'
+description: 'Convierte tu Windows Terminal en una herramienta profesional y atractiva. Guía práctica para personalizar PowerShell con Oh My Posh paso a paso.'
 pubDate: 'Jan 04 2022'
 heroImage: '/thumbnails/cat-rgb.webp'
 ---

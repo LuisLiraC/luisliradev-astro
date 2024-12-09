@@ -1,6 +1,6 @@
 ---
 title: 'Conviértete en QA: rompe cosas y que te paguen por ello'
-description: '¿Te gusta romper cosas y encontrar errores de software? ¿Siempre que estás en una aplicación piensas "¿qué pasa si hago esto?" y esperas que algo falle?'
+description: 'De tester a QA profesional: aprende las herramientas, metodologías y habilidades esenciales para triunfar en el mundo del testing.'
 pubDate: 'Dec 26 2021'
 heroImage: '/thumbnails/cat-qa.webp'
 ---

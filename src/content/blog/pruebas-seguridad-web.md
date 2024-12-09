@@ -1,6 +1,6 @@
 ---
 title: 'Pruebas de seguridad en aplicaciones web' 
-description: '¿Alguna vez has tenido curiosidad sobre las pruebas de seguridad, pero no sabes por dónde empezar? En este artículo te traigo una guía para que puedas empezar a hacer pruebas de seguridad en tus aplicaciones web, basándonos en algunas de las vulnerabilidades más comunes mostradas en el Top 10 de OWASP.'
+description: 'Aprende a realizar pruebas de seguridad web básicas: inyección SQL, XSS, autenticación y exposición de datos. Guía práctica basada en OWASP Top 10.'
 pubDate: 'Oct 23 2023'
 heroImage: '/thumbnails/cat-security.webp'
 ---

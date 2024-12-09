@@ -1,6 +1,6 @@
 ---
 title: 'Rewind 2022: logros y fracasos'
-description: 'Se acaba el año y entre tanto rewind en las aplicaciones que uso me dieron ganas de hacer mi rewind personal, pero no quiero hablar solo de mis logros, también quiero hablar sobre las cosas en las que fracasé.'
+description: 'Un recuento personal de 7 logros y 7 fracasos que marcaron mi 2022. Una reflexión honesta sobre el crecimiento personal y profesional.'
 pubDate: 'Dec 15 2022'
 heroImage: '/thumbnails/cat-2022.webp'
 ---
