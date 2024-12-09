@@ -15,7 +15,7 @@ Primero debes saber que es algo que encuentras en la documentación oficial de M
 Instalación
 -----------
 
-> Si tienes problemas para ejecutar estos comandos debido a un error de permisos o acceso al directorio de `$PROFILE`, te recomiendo leer la sección "Preparación de la terminal" de mi otro blogpost [Crea alias de comandos en Windows Terminal](https://luislira.dev/blog/crea-alias-de-comando-en-windows-terminal).
+> Si tienes problemas para ejecutar estos comandos debido a un error de permisos o acceso al directorio de `$PROFILE`, te recomiendo leer la sección "Preparación de la terminal" de mi otro blogpost [Crea alias de comandos en Windows Terminal](https://luislira.dev/blog/crea-alias-de-comando-en-windows-terminal/).
 
 Abre tu Windows Terminal o Powershell y ejecuta los siguientes comandos:  
 `Install-Module posh-git -Scope CurrentUser`  
