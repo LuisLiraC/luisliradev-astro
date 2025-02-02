@@ -68,10 +68,11 @@ const posts = (await getCollection('blog')).sort(
 			ul a:hover img {
 				box-shadow: var(--box-shadow);
 			}
-			@media (max-width: 720px) {
+			@media (max-width: 1024px) {
 				ul {
 					gap: 0.5em;
 				}
+
 				ul li {
 					width: 100%;
 					text-align: center;
