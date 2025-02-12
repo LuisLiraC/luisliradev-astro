@@ -5,8 +5,6 @@ pubDate: 'Feb 02 2025'
 heroImage: '/thumbnails/cat-valid-parentheses.webp'
 ---
 
-
-
 El problema de Valid Parentheses (Paréntesis Válidos) es un problema clásico de programación que puedes encontrar en [LeetCode](https://leetcode.com/problems/valid-parentheses/). Aquí analizaremos el problema y veremos qué preguntas nos debemos hacer para poder resolverlo, además de una solución en Rust 🦀.
 
 ## Análisis del problema
